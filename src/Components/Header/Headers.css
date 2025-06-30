@@ -1,0 +1,93 @@
+/* Header Container */
+.HeaderContainer {
+  height: 80px;
+  width: 100%;
+  background: linear-gradient(to right, #e7ecf1, #cfd9e1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+/* Logo Style */
+.Logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Navigation Container */
+.NavLinks {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.NavLinks a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  transition: color 0.3s ease;
+  white-space: nowrap;
+}
+
+.NavLinks a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #333;
+  transition: width 0.3s ease;
+}
+
+.NavLinks a:hover::after {
+  width: 100%;
+}
+
+/* Hamburger Icon for Mobile */
+.Hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  transition: all 0.3s ease;
+}
+
+/* Responsive for small screens */
+@media (max-width: 768px) {
+  .NavLinks {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: #f7f9fa;
+    display: none;
+    padding: 10px 0;
+  }
+
+  .NavLinks.open {
+    display: flex;
+  }
+
+  .Hamburger {
+    display: flex;
+  }
+}

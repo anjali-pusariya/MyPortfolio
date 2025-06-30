@@ -1,0 +1,88 @@
+/* ============================= */
+/*        ABOUT SECTION         */
+/* ============================= */
+
+.AboutContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  padding: 60px 20px;
+  background-color: #f5f7fa;
+  box-sizing: border-box;
+}
+
+/* Grid container for content */
+.About_Grid {
+  flex: 1 1 100%;
+  max-width: 800px;
+  box-sizing: border-box;
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+/* ============================= */
+/*         TEXT STYLING         */
+/* ============================= */
+
+.text-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text-section p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* ============================= */
+/*       FADE-IN ANIMATION      */
+/* ============================= */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============================= */
+/*        RESPONSIVENESS        */
+/* ============================= */
+
+/* Tablet view */
+@media (max-width: 768px) {
+  .text-section h2 {
+    font-size: 2rem;
+  }
+
+  .text-section p {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .AboutContainer {
+    padding: 30px 15px;
+  }
+
+  .text-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .text-section p {
+    font-size: 0.95rem;
+  }
+}

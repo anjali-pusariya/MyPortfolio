@@ -1,0 +1,114 @@
+.ProjectsContainer {
+  width: 90%;
+  margin: auto;
+  padding: 60px 0;
+  text-align: center;
+  background-color: #fdfdfd;
+}
+
+.ProjectsContainer h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.ProjectCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.ProjectCard {
+  width: 280px;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.ProjectCard:hover {
+  transform: translateY(-5px);
+}
+
+.ProjectImage {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.ProjectImage .ant-image,
+.ProjectImage .ant-image-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.ProjectContent {
+  padding: 20px;
+}
+
+.ProjectContent h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.ProjectContent p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.ProjectContent a {
+  color: #007bff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.ProjectContent a:hover {
+  color: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ProjectCards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ProjectCard {
+    width: 90%;
+  }
+}
+/* Additional responsive tweak for tablets */
+@media (max-width: 992px) {
+  .ProjectCard {
+    width: 45%;
+  }
+}
+
+/* Extra responsiveness for small screens */
+@media (max-width: 480px) {
+  .ProjectCard {
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  .ProjectContent {
+    padding: 15px;
+  }
+
+  .ProjectContent h3 {
+    font-size: 18px;
+  }
+
+  .ProjectContent p {
+    font-size: 14px;
+  }
+}
