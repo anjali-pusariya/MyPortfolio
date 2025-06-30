@@ -4,16 +4,19 @@ import CarGrid from '../Images/CarGrid.png';
 import Marksheet from '../Images/Marksheet.png';
 import Portfolio from '../Images/Portfolio.png';
 import Infofix from '../Images/Infofix.png';
+import Rupeshgrahak from '../Images/RupeshGrahak.png';
+import APSH from '../Images/APSH.png';
+
 import { Image } from 'antd';
 
 
 const projects = [
-  {
-    title: 'Portfolio Website',
-    description: 'A personal portfolio website built with React and CSS to showcase my projects and skills.',
-    image: Portfolio,
-    link: '#'
-  },
+  // {
+  //   title: 'Portfolio Website',
+  //   description: 'A personal portfolio website built with React and CSS to showcase my projects and skills.',
+  //   image: Portfolio,
+  //   link: '#'
+  // },
   {
     title: 'Marksheet Generator',
     description: ' Developed an interactive marksheet generator that creates marksheets based on user-entered data including marks and images',
@@ -32,6 +35,19 @@ const projects = [
     image: Infofix,
     link: '#'
   },
+  {
+    title: 'Rupesh Grahak Seva Kendra (Live Project)',
+    description: 'Developed a real-time web application using ReactJS and Django to support a one-stop service center offering banking, bill payments, registration, and government services to rural and urban areas through a vendor network.',
+    image: Rupeshgrahak,
+    link: '#'
+  },
+  {
+    title: 'AP Smart Home (Live Project)',
+    description: 'Static website built with ReactJS and Django showcasing customizable home automation packages like light, fan, curtain, AC, and remote lock control.',
+    image: APSH,
+    link: '#'
+  }
+
 ];
 
 function Project() {
