@@ -42,11 +42,11 @@ const projects = [
     link: '#'
   },
   {
-    title: 'AP Smart Home (Live Project)',
-    description: 'Static website built with ReactJS and Django showcasing customizable home automation packages like light, fan, curtain, AC, and remote lock control.',
-    image: APSH,
-    link: '#'
-  }
+  title: 'AP Smart Home (Live Project)',
+  description: 'Developed a real-time web application using ReactJS and Django, showcasing customizable home automation packages like light, fan, curtain, AC, and remote lock control.',
+  image: APSH,
+  link: '#'
+},
 
 ];
 
