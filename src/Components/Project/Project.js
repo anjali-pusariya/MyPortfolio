@@ -21,32 +21,32 @@ const projects = [
     title: 'Marksheet Generator',
     description: ' Developed an interactive marksheet generator that creates marksheets based on user-entered data including marks and images',
     image: Marksheet,
-    link: '#'
+    link: 'https://anjali-pusariya.github.io/MarksheetGenerator/'
   },
   {
     title: ' CarGrid – Car Showcase Landing Page',
     description: ' Developed a responsive landing page showcasing featured cars and brands using ReactJS and Bootstrap.',
     image: CarGrid,
-    link: '#'
+    link: 'https://anjali-pusariya.github.io/MyCargridApp/'
   },
   {
     title: 'Infofix (Live Project)',
     description: ' Developed a real-time web application using ReactJS for the frontend and Django for the backend.',
     image: Infofix,
-    link: '#'
+    link: 'https://course.yashvitech.com/'
   },
   {
     title: 'Rupesh Grahak Seva Kendra (Live Project)',
     description: 'Developed a real-time web application using ReactJS and Django to support a one-stop service center offering banking, bill payments, registration, and government services to rural and urban areas through a vendor network.',
     image: Rupeshgrahak,
-    link: '#'
+    link: 'https://rupeshgrahaksevakendra.com/'
   },
   {
-  title: 'AP Smart Home (Live Project)',
-  description: 'Developed a real-time web application using ReactJS and Django, showcasing customizable home automation packages like light, fan, curtain, AC, and remote lock control.',
-  image: APSH,
-  link: '#'
-},
+    title: 'AP Smart Home (Live Project)',
+    description: 'Developed a real-time web application using ReactJS and Django, showcasing customizable home automation packages like light, fan, curtain, AC, and remote lock control.',
+    image: APSH,
+    link: 'https://apsmarthomes.in/'
+  },
 
 ];
 
@@ -63,6 +63,9 @@ function Project() {
             <div className="ProjectContent">
               <h3>{project.title}</h3>
               <p>{project.description}</p>
+              <a href={project.link} target="_blank" rel="noopener noreferrer" className="view-link">
+                View Project
+              </a>
 
             </div>
           </div>
