@@ -8,6 +8,10 @@ import Logo5 from '../Images/python.png'
 import Logo6 from '../Images/djgo.png'
 import Logo7 from '../Images/git.png'
 import Logo8 from '../Images/bs.png'
+import Logo9 from '../Images/logovuejs.png'
+import Logo10 from '../Images/flask.png'
+import Logo11 from '../Images/mysql.png'
+
 
 
 const skills = [
@@ -42,6 +46,18 @@ const skills = [
   {
     name: 'Bootstrap',
     icon: Logo8,
+  },
+  {
+    name: 'VueJS',
+    icon: Logo9,
+  },
+  {
+    name: 'Flask',
+    icon: Logo10,
+  },
+  {
+    name: 'MySql',
+    icon: Logo11,
   },
 
 ];
