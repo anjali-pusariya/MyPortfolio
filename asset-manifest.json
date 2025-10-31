@@ -1,31 +1,34 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.9453feb4.css",
-    "main.js": "/MyPortfolio/static/js/main.92b53d81.js",
+    "main.js": "/MyPortfolio/static/js/main.cc9b33f0.js",
     "static/js/453.26796fb8.chunk.js": "/MyPortfolio/static/js/453.26796fb8.chunk.js",
     "static/media/RupeshGrahak.png": "/MyPortfolio/static/media/RupeshGrahak.9a3a62f9bce329853f5c.png",
     "static/media/APSH.png": "/MyPortfolio/static/media/APSH.732d3921e96e0b72efa0.png",
     "static/media/CarGrid.png": "/MyPortfolio/static/media/CarGrid.df53b2afc2dabf144122.png",
     "static/media/Portfolio.png": "/MyPortfolio/static/media/Portfolio.8b576c3b4bcf7b9d5310.png",
     "static/media/Infofix.png": "/MyPortfolio/static/media/Infofix.339c7d4863750f98c432.png",
-    "static/media/Anjali.pdf": "/MyPortfolio/static/media/Anjali.bef2b5115644b3dfd681.pdf",
+    "static/media/JoHukum.png": "/MyPortfolio/static/media/JoHukum.30bac8f73c6948a79630.png",
+    "static/media/AnjaliResume.pdf": "/MyPortfolio/static/media/AnjaliResume.a13a4e027bfc80221b9d.pdf",
+    "static/media/Marksheet1.png": "/MyPortfolio/static/media/Marksheet1.1ece296b1b95fa10fbd8.png",
     "static/media/Anjali Pro.jpeg": "/MyPortfolio/static/media/Anjali Pro.378d14cf52dba54c78e5.jpeg",
-    "static/media/Marksheet.png": "/MyPortfolio/static/media/Marksheet.665cd76475ff285a6ab9.png",
     "static/media/rjs.png": "/MyPortfolio/static/media/rjs.0395eae10fa6c4deeca9.png",
     "static/media/python.png": "/MyPortfolio/static/media/python.7b8efdd9ba95c9d1613c.png",
     "static/media/djgo.png": "/MyPortfolio/static/media/djgo.9ea2c25668b5ad955225.png",
+    "static/media/logovuejs.png": "/MyPortfolio/static/media/logovuejs.a858b2b67eb478a0228c.png",
     "static/media/git.png": "/MyPortfolio/static/media/git.1ff6d9646165b7f34af9.png",
     "static/media/htm.png": "/MyPortfolio/static/media/htm.33dbfb84aad0499b5494.png",
     "static/media/css.png": "/MyPortfolio/static/media/css.58ebd752ebf192c0d2a9.png",
     "static/media/js.png": "/MyPortfolio/static/media/js.1e8d308664e39b3bdffe.png",
+    "static/media/flask.png": "/MyPortfolio/static/media/flask.e82e30cce17cd62d6b57.png",
     "static/media/bs.png": "/MyPortfolio/static/media/bs.fd3cb129782ecd201164.png",
     "index.html": "/MyPortfolio/index.html",
     "main.9453feb4.css.map": "/MyPortfolio/static/css/main.9453feb4.css.map",
-    "main.92b53d81.js.map": "/MyPortfolio/static/js/main.92b53d81.js.map",
+    "main.cc9b33f0.js.map": "/MyPortfolio/static/js/main.cc9b33f0.js.map",
     "453.26796fb8.chunk.js.map": "/MyPortfolio/static/js/453.26796fb8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9453feb4.css",
-    "static/js/main.92b53d81.js"
+    "static/js/main.cc9b33f0.js"
   ]
 }
